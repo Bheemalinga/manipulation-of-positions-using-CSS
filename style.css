@@ -44,6 +44,16 @@ html, body{
     bottom: 0;
 }
 
+.chatbot:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: lightyellow;
+    transform: scale(1.4);
+    box-shadow: 0 0 10px 10px #91C8E4;
+}
+
+
+
 
 .stick{
     height: 10%;
@@ -57,4 +67,5 @@ html, body{
     position: sticky;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
